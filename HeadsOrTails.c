@@ -6,7 +6,11 @@
 int main(){
     int r[MAX],count0=0,count1=0;
     int i;
+    char name[50];
 
+    printf("Who are you?\n");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
     printf("Tossing a coin...\n");
     
     for(i=0;i<MAX;i++){
